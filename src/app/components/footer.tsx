@@ -12,7 +12,7 @@ export default function Footer() {
                             <div className="grid md:grid-cols-12 grid-cols-1 gap-6">
                                 <div className="lg:col-span-6 md:col-span-12">
                                     <Link href="/" className="text-[22px] focus:outline-none">
-                                        <Image src='/images/logo-truck2.png' width={180} height={40} alt="Global Dispatch Services" className="brightness-0 invert"/>
+                                        <Image src='/images/logo-truck2.png' width={180} height={40} alt="Global Dispatch Services" className=""/>
                                     </Link>
                                     <p className="mt-6 text-gray-300">Professional truck dispatch services providing reliable coordination and support for carriers, owner-operators, and trucking businesses across the transportation industry.</p>
 

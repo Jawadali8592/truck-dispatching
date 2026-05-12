@@ -38,7 +38,7 @@ export default function Navbar({navlight,tagline,isNavLightPage}:{navlight:any, 
             <div className="container relative ">
                 {!navlight && 
                     <Link className="logo-container " href="/" style={{display: 'flex', alignItems: 'center', padding: scroll ? '0.25rem 0' : '0.5rem 0', float: 'left'}}>
-                        <Image src='/images/logo-truck1.png' width={180} height={40} className="inline-block -mt-10 dark:hidden" alt="Global Dispatch Services"/>
+                        <Image src='/images/logo-truck1.png' width={180} height={40} className="inline-block  dark:hidden" alt="Global Dispatch Services"/>
                         <Image src='/images/logo-truck2.png' width={180} height={40} className="hidden dark:inline-block" alt="Global Dispatch Services"/>
                     </Link>
                 }
