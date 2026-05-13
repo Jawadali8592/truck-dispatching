@@ -19,7 +19,7 @@ export default function Home() {
                 Professional Truck Dispatch
               </span>
 
-              <h1 className="font-extrabold leading-tight tracking-tight text-4xl lg:text-6xl mb-6 text-gray-900 dark:text-white">
+              <h1 className="font-extrabold leading-tight tracking-tight text-2xl md:text-4xl lg:text-6xl mb-6 text-gray-900 dark:text-white">
                 Professional Truck{' '}
                 <span className="text-[#183457] dark:text-[#F4B223]">Dispatch Services</span>
               </h1>
@@ -95,14 +95,14 @@ export default function Home() {
                 className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-[1.02]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent rounded-3xl" />
-              <div className="absolute bottom-0 left-0 right-0 p-8 lg:p-12">
+              {/* <div className="absolute bottom-0 left-0 right-0 p-8 lg:p-12">
                 <span className="inline-block bg-[#183457] text-white text-xs font-semibold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">
                   About Us
                 </span>
                 <h2 className="text-white text-2xl lg:text-4xl font-bold max-w-xl leading-tight">
                   What is Global Dispatch Services?
                 </h2>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -236,7 +236,7 @@ For additional details or general inquiries, please contact Global Dispatch Serv
       </section>
 
       {/* ─── ORGANIZED COMMUNICATION ─────────────────────────────────── */}
-      <section className="relative py-20 bg-white dark:bg-slate-900 overflow-hidden">
+      <section className="relative md:py-20 bg-white dark:bg-slate-900 overflow-hidden">
         <div className="container relative">
           <div className="max-w-5xl mx-auto">
 
@@ -246,7 +246,7 @@ For additional details or general inquiries, please contact Global Dispatch Serv
                 <span className="inline-block text-[#183457] dark:text-[#F4B223] text-sm font-semibold uppercase tracking-widest mb-3">
                   Our Approach
                 </span>
-                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+                <h2 className="md:text-3xl text-xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
                   Importance of Organized Communication in Dispatching
                 </h2>
                 <p className="text-gray-600 dark:text-slate-300 leading-relaxed mb-5">
@@ -269,7 +269,7 @@ Our goal is to contribute to smoother operations through better communication ma
                 </p>
 
                 {/* Communication pillars */}
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid md:grid-cols-2 gap-4">
                   {[
                     { label: 'Scheduling', desc: 'Clear scheduling coordination and update management.' },
                     { label: 'Load Updates', desc: 'Real-time load coordination and status communication.' },

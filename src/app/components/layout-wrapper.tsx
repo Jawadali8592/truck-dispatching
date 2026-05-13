@@ -2,9 +2,10 @@
 import { usePathname } from 'next/navigation'
 import Navbar from './navbar/navbar'
 import Footer from './footer'
-import ScrollToTop from './scroll-to-top'
+// import ScrollToTop from './scroll-to-top'
 import Switcher from './switcher'
 import Tagline from './navbar/tagline'
+import MessengerButton from './messenger-button'
 
 export default function LayoutWrapper({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
@@ -18,8 +19,9 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
       <Navbar navlight={isNavLight} tagline={true} isNavLightPage={isNavLight}/>
       {children}
       <Footer />
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       <Switcher />
+      <MessengerButton />
     </>
   )
 }
