@@ -8,8 +8,8 @@ export default function Tagline() {
           <div className="flex items-center space-x-6">
             <div className="flex items-center">
               <FiPhoneCall className="w-4 h-4 mr-2 text-[#F4B223]" />
-              <a href="tel:+15253446854" className="hover:text-[#F4B223] transition-colors">
-                +1 (525) 344-6854
+              <a href="tel:+15818125074" className="hover:text-[#F4B223] transition-colors">
+                +1(581) 812-5074
               </a>
             </div>
             <div className="flex items-center">
